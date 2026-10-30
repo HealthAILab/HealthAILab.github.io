@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="海南医科大学健康人工智能课题组，聚焦医学信息学、医学数据挖掘、临床决策支持、深度学习与数据安全。">
+  <title>Health AI Lab · 健康人工智能课题组</title>
+  <style>
+    :root{--ink:#12333a;--muted:#60787c;--paper:#f7f7f2;--card:#fff;--green:#0f6b64;--mint:#dcebe6;--line:#d8e2de;--accent:#ef8c5a}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    nav{position:sticky;top:0;z-index:9;background:rgba(247,247,242,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    nav .wrap{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.04em}.navlinks{display:flex;gap:28px}.navlinks a{text-decoration:none;color:var(--muted);font-size:14px}
+    header{padding:110px 0 88px}.eyebrow{color:var(--green);font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:13px}
+    h1{font-family:Georgia,"Noto Serif SC",serif;font-size:clamp(46px,7vw,86px);line-height:1.06;margin:18px 0 26px;max-width:900px;font-weight:600}
+    .lead{font-size:20px;color:var(--muted);max-width:760px}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}.chip{padding:8px 15px;border-radius:99px;background:var(--mint);color:var(--green);font-size:14px;font-weight:700}
+    section{padding:82px 0;border-top:1px solid var(--line)}.section-head{display:grid;grid-template-columns:260px 1fr;gap:60px;margin-bottom:42px}
+    .num{font:700 14px Georgia,serif;color:var(--accent)}h2{font:500 clamp(32px,4vw,52px)/1.18 Georgia,"Noto Serif SC",serif;margin:8px 0}.intro{font-size:19px;color:var(--muted);max-width:760px}
+    .directions{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.direction,.member,.pub{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px}
+    .direction b{display:block;font-size:21px;margin-bottom:8px}.direction p,.member p{margin:0;color:var(--muted)}
+    .member{display:grid;grid-template-columns:170px 1fr;gap:30px;align-items:center}.portrait{aspect-ratio:1;border-radius:18px;background:linear-gradient(145deg,var(--green),#173f47);display:grid;place-items:center;color:white;font:600 54px Georgia,serif}
+    .member h3{font:500 34px Georgia,"Noto Serif SC",serif;margin:0 0 4px}.role{color:var(--green);font-weight:700;margin-bottom:14px!important}.contact{margin-top:16px!important;font-size:14px}
+    .publications{display:grid;gap:12px;counter-reset:pub}.pub{display:grid;grid-template-columns:46px 1fr;gap:18px;padding:22px 26px;counter-increment:pub}.pub:before{content:counter(pub,decimal-leading-zero);color:var(--green);font:700 14px Georgia,serif}.pub-title{font-weight:750;line-height:1.45}.pub-meta{color:var(--muted);font-size:14px;margin-top:6px}.me{font-weight:850;color:var(--green)}
+    footer{padding:55px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}footer .wrap{display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:760px){.navlinks{display:none}header{padding:78px 0 60px}.section-head{grid-template-columns:1fr;gap:10px}.directions{grid-template-columns:1fr}.member{grid-template-columns:1fr}.portrait{width:130px}.pub{grid-template-columns:32px 1fr}footer .wrap{display:block}}
+  </style>
+</head>
+<body>
+<nav><div class="wrap"><div class="brand">HEALTH AI LAB</div><div class="navlinks"><a href="#about">课题组介绍</a><a href="#research">研究方向</a><a href="#people">成员</a><a href="#publications">论文成果</a></div></div></nav>
+<header><div class="wrap">
+  <div class="eyebrow">Hainan Medical University</div>
+  <h1>健康人工智能课题组<br>Health AI Lab</h1>
+  <p class="lead">立足医学信息学与临床真实世界数据，以可信人工智能方法服务疾病风险预测、临床决策支持和医学数据安全。</p>
+  <div class="chips"><span class="chip">医学信息学</span><span class="chip">临床人工智能</span><span class="chip">医学数据挖掘</span><span class="chip">数据安全</span></div>
+</div></header>
+
+<main>
+<section id="about"><div class="wrap">
+  <div class="section-head"><div><span class="num">01</span><h2>课题组介绍</h2></div><p class="intro">课题组依托海南医科大学智能医学与技术学院（大数据研究中心），开展医学、计算机科学与数据科学交叉研究。我们关注可解释、可验证、可转化的医学人工智能，强调多中心验证、临床价值与真实场景部署。</p></div>
+</div></section>
+
+<section id="research"><div class="wrap">
+  <div class="section-head"><div><span class="num">02</span><h2>研究方向</h2></div><p class="intro">围绕临床问题组织数据、方法与评价，推动算法研究与医学需求形成闭环。</p></div>
+  <div class="directions">
+    <article class="direction"><b>医学数据挖掘与风险预测</b><p>基于电子病历、重症监护及多模态临床数据，构建疾病风险分层与预后预测模型。</p></article>
+    <article class="direction"><b>临床决策支持</b><p>研究可解释、动态和可落地的辅助决策方法，服务重症、脓毒症与器官功能障碍等场景。</p></article>
+    <article class="direction"><b>深度学习与跨中心泛化</b><p>关注时序建模、联邦学习、迁移学习和域适应，提升模型在不同机构与人群中的稳定性。</p></article>
+    <article class="direction"><b>医学数据安全</b><p>研究区块链、隐私保护与可信共享机制，支持医疗数据安全流通和协同研究。</p></article>
+  </div>
+</div></section>
+
+<section id="people"><div class="wrap">
+  <div class="section-head"><div><span class="num">03</span><h2>成员</h2></div><p class="intro">开放、协作、面向真实临床问题的交叉研究团队。</p></div>
+  <article class="member">
+    <div class="portrait">LW</div>
+    <div><h3>刘伟 <small>Liu Wei</small></h3><p class="role">博士 · 副教授 · 硕士生导师</p><p>海南医科大学智能医学与技术学院（大数据研究中心）。研究领域包括医学信息学、医学数据挖掘、临床决策支持、深度学习与数据安全。</p><p class="contact">E-mail: liuwei@muhn.edu.cn</p></div>
+  </article>
+</div></section>
+
+<section id="publications"><div class="wrap">
+  <div class="section-head"><div><span class="num">04</span><h2>论文成果</h2></div><p class="intro">代表性论文与会议成果。完整成果列表将持续更新。</p></div>
+  <div class="publications">
+    <article class="pub"><div><div class="pub-title">Prediction of Moderate-to-Severe Sepsis-Associated Acute Kidney Injury Using a Dual-Timepoint Machine Learning Model: Development, Multiregional Validation, and Clinical Deployment Study</div><div class="pub-meta">Ge X, Chen W, Shi J, Zhang J, Tai H, Zhang Y, Wang B, <span class="me">Liu W</span>, et al. · Journal of Medical Internet Research · 2025 · DOI: 10.2196/73840</div></div></article>
+    <article class="pub"><div><div class="pub-title">Optimized Profit Allocation Model for Service Alliance Transactions Considering Risk</div><div class="pub-meta"><span class="me">Liu W</span>, Huang M, Feng W · Electronics · 2024 · DOI: 10.3390/electronics13234648</div></div></article>
+    <article class="pub"><div><div class="pub-title">Machine Learning for Prediction of Acute Kidney Injury in Patients Diagnosed With Sepsis in Critical Care</div><div class="pub-meta">Shi J, Han H, Chen S, <span class="me">Liu W</span>, Li Y · PLOS ONE · 2024 · DOI: 10.1371/journal.pone.0301014</div></div></article>
+    <article class="pub"><div><div class="pub-title">RNA-RBP Interactions Recognition Using Multi-Label Learning and Feature Attention Allocation</div><div class="pub-meta">Han H, Talpur B A, <span class="me">Liu W</span>, Wang L, Ahmed B, Sarhan N, Awwad E M · Journal of Cloud Computing · 2024 · DOI: 10.1186/s13677-024-00612-0</div></div></article>
+    <article class="pub"><div><div class="pub-title">Prediction of Parkinson’s Disease Based on Artificial Neural Networks Using Speech Datasets</div><div class="pub-meta"><span class="me">Liu W</span>, Liu J, Peng T, Wang G, Balas V E, Geman O, Chiu H W · Journal of Ambient Intelligence and Humanized Computing · 2023 · DOI: 10.1007/s12652-022-03825-w</div></div></article>
+    <article class="pub"><div><div class="pub-title">Optimization of PBFT Algorithm Based on QoS-Aware Trust Service Evaluation</div><div class="pub-meta"><span class="me">Liu W</span>, Zhang X, Feng W, Huang M, Xu Y · Sensors · 2022 · DOI: 10.3390/s22124590</div></div></article>
+    <article class="pub"><div><div class="pub-title">STEB: A Secure Service Trading Ecosystem Based on Blockchain</div><div class="pub-meta"><span class="me">Liu W</span>, Feng W, Huang M, Xu Y, Zheng X · PLOS ONE · 2022 · DOI: 10.1371/journal.pone.0267914</div></div></article>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Health AI Lab · Hainan Medical University</span><span>Haikou, Hainan, China</span></div></footer>
+</body></html>
